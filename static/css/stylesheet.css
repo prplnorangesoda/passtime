@@ -136,6 +136,21 @@
     font-size: 2.25rem;
 }
 
+.footgrid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+.footleft {
+    text-align: left;
+}
+
+.footright {
+    text-align: right;
+}
+
 main {
     background-color: #111;
     display: flex;
@@ -194,4 +209,15 @@ section {
     font-size: 2rem;
     color: white;
     position: relative;
+}
+
+footer {
+    font-family: sans-serif;
+    font-weight: 300;
+    color: rgb(180, 189, 199);
+    background-color: rgba(255,255,255,0.1);
+    width: auto;
+    padding: 10px;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
